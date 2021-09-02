@@ -1,0 +1,309 @@
+.ml-auto {
+  margin-left: auto;
+}
+main {
+  min-height: 75vh;
+}
+
+i {
+  padding: 4px;
+}
+.her1 {
+  background-image: url("/src/profolio/java.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.py-3 {
+  text-align: center;
+  padding-top: 30vh;
+}
+.her1 h1 {
+  color: rgb(230, 230, 230);
+  padding-top: 20vh;
+}
+.her1 h2 {
+  color: rgb(230, 230, 230);
+  margin-bottom: 20vh;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid whitesmoke; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+
+  animation: typing 6.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 33%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: whitesmoke;
+  }
+}
+a:hover {
+  color: teal;
+}
+.box1 {
+  flex: 1;
+  min-width: 24vh;
+}
+.box2 {
+  flex: 1;
+  min-width: 24vh;
+}
+
+.svg {
+  border-radius: 50%;
+  margin-top: 217px;
+  margin-left: 20px;
+}
+.h11 {
+  padding-top: 40px;
+}
+.p11 {
+  font-size: 1.2em;
+}
+.container1 {
+  margin: 0px;
+  min-width: 30vh;
+}
+.mainer {
+  overflow: hidden;
+}
+
+.logo {
+  border: 7px rgb(130, 129, 133) solid;
+  border-radius: 50%;
+  max-width: 280px;
+  margin-left: 0px;
+  margin-top: 20px;
+}
+.type h2 {
+  color: rgb(78, 182, 252);
+}
+.basic-info li {
+  padding: 15px;
+  font-size: 17px;
+}
+.basic-info ul {
+  text-decoration: none;
+}
+.new-box {
+  display: flex;
+  margin: 0px;
+}
+hr {
+  height: 19px;
+  background: -webkit-gradient(
+    linear,
+    0 0,
+    100% 0,
+    from(black),
+    to(rgb(78, 182, 252)),
+    color-stop(100%, black)
+  );
+
+  margin-left: 20px;
+}
+.skill {
+  margin-top: 20px;
+}
+.skill p {
+  margin-bottom: 5px;
+  margin-top: 50px;
+
+  text-align: justify;
+  text-align: center;
+}
+.he1 {
+  width: 100%;
+}
+.he2 {
+  width: 80%;
+}
+.he3 {
+  width: 70%;
+}
+.he4 {
+  width: 85%;
+}
+.he5 {
+  width: 90%;
+}
+
+.resu {
+  background-color: whitesmoke;
+}
+
+.rh {
+  padding-top: 34px;
+  margin-bottom: 20px;
+}
+.container2 {
+  display: flex;
+}
+.boxin1 {
+  flex: 1;
+  min-width: 22vh;
+}
+.boxin2 {
+  flex: 1;
+  min-width: 22vh;
+  padding-left: 20px;
+  border-left: 6px solid rgb(28, 131, 179);
+}
+.boxin1 ul {
+  margin-left: 0;
+}
+
+.pp1 {
+  font-size: 1.2em;
+}
+.container2 h4 {
+  padding: 25px;
+}
+
+.hh11 {
+  font-family: "Poppins", sans-serif, "arial";
+  font-weight: 600;
+  font-size: 72px;
+  color: white;
+  text-align: center;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #9b9b9b;
+  line-height: 1.5;
+}
+
+/* ///// inputs /////*/
+
+input:focus ~ label,
+textarea:focus ~ label,
+input:valid ~ label,
+textarea:valid ~ label {
+  font-size: 0.75em;
+  color: #999;
+  top: -5px;
+  -webkit-transition: all 0.225s ease;
+  transition: all 0.225s ease;
+}
+
+.styled-input {
+  float: left;
+  width: 293px;
+  margin: 1rem 0;
+  position: relative;
+  border-radius: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+  .styled-input {
+    width: 100%;
+  }
+}
+
+.styled-input label {
+  color: #999;
+  padding: 1.3rem 30px 1rem 30px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  pointer-events: none;
+}
+
+.styled-input.wide {
+  width: 650px;
+  max-width: 100%;
+}
+
+input,
+textarea {
+  padding: 30px;
+  border: 0;
+  width: 100%;
+  font-size: 1rem;
+  background-color: whitesmoke;
+  color: white;
+  border-radius: 4px;
+}
+
+input:focus,
+textarea:focus {
+  outline: 0;
+}
+
+input:focus ~ span,
+textarea:focus ~ span {
+  width: 100%;
+  -webkit-transition: all 0.075s ease;
+  transition: all 0.075s ease;
+}
+
+textarea {
+  width: 100%;
+  min-height: 15em;
+}
+
+.input-container {
+  width: 650px;
+  max-width: 100%;
+  margin: 20px auto 25px auto;
+}
+
+.submit-btn {
+  float: right;
+  padding: 7px 35px;
+  border-radius: 60px;
+  display: inline-block;
+  background-color: #4b8cfb;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06), 0 2px 10px 0 rgba(0, 0, 0, 0.07);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.submit-btn:hover {
+  transform: translateY(1px);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.09);
+}
+
+@media (max-width: 768px) {
+  .submit-btn {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+}
+
+input[type="checkbox"] + label {
+  color: #ccc;
+  font-style: italic;
+}
+
+input[type="checkbox"]:checked + label {
+  color: #f00;
+  font-style: normal;
+}
+.row h1 {
+  padding-top: 50px;
+}
