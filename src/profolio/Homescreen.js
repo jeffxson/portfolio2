@@ -14,7 +14,7 @@ const Homescreen = () =>  {
              <SocialIcon className  ="svg" url="https://twitter.com/" />
                <SocialIcon className  ="svg" url="https://facebook.com/" />
                <SocialIcon className  ="svg" url="https://instagram.com/" />
-               <SocialIcon className  ="svg" url="hhttps://www.linkedin.com/in/jeffrey-anyanwu-6a0543214" />
+               <SocialIcon className  ="svg" url="hhttps://linkedin.com/in/jeffrey-anyanwu-6a0543214" />
                <SocialIcon className  ="svg" url="https://github.com/jeffxson" />
        
         </div>
