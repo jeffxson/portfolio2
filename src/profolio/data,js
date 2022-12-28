@@ -1,0 +1,74 @@
+import insur from "./insurepass.png";
+
+export const work = [
+  {
+    picture: insur,
+    discribtion:
+      "Insurpass is ushering in the future of insurance, creating amazing opportunities for insurers to access trusted digital distribution channels to provide coverage for the underserved ",
+    link: "https://www.insurpass.com/",
+  },
+  
+  {
+    picture: insur,
+    discribtion:
+      "Insurpass is ushering in the future of insurance, creating amazing opportunities for insurers to access trusted digital distribution channels to provide coverage for the underserved ",
+    link: "https://www.insurpass.com/",
+  },
+  
+  {
+    picture: insur,
+    discribtion:
+      "Insurpass is ushering in the future of insurance, creating amazing opportunities for insurers to access trusted digital distribution channels to provide coverage for the underserved ",
+    link: "https://www.insurpass.com/",
+  },
+  
+  {
+    picture: insur,
+    discribtion:
+      "Insurpass is ushering in the future of insurance, creating amazing opportunities for insurers to access trusted digital distribution channels to provide coverage for the underserved ",
+    link: "https://www.insurpass.com/",
+  },
+  
+  {
+    picture: insur,
+    discribtion:
+      "Insurpass is ushering in the future of insurance, creating amazing opportunities for insurers to access trusted digital distribution channels to provide coverage for the underserved ",
+    link: "https://www.insurpass.com/",
+  },
+  
+  {
+    picture: insur,
+    discribtion:
+      "Insurpass is ushering in the future of insurance, creating amazing opportunities for insurers to access trusted digital distribution channels to provide coverage for the underserved ",
+    link: "https://www.insurpass.com/",
+  },
+  
+  {
+    picture: insur,
+    discribtion:
+      "Insurpass is ushering in the future of insurance, creating amazing opportunities for insurers to access trusted digital distribution channels to provide coverage for the underserved ",
+    link: "https://www.insurpass.com/",
+  },
+  
+  {
+    picture: insur,
+    discribtion:
+      "Insurpass is ushering in the future of insurance, creating amazing opportunities for insurers to access trusted digital distribution channels to provide coverage for the underserved ",
+    link: "https://www.insurpass.com/",
+  },
+  
+  {
+    picture: insur,
+    discribtion:
+      "Insurpass is ushering in the future of insurance, creating amazing opportunities for insurers to access trusted digital distribution channels to provide coverage for the underserved ",
+    link: "https://www.insurpass.com/",
+  },
+  
+  {
+    picture: insur,
+    discribtion:
+      "Insurpass is ushering in the future of insurance, creating amazing opportunities for insurers to access trusted digital distribution channels to provide coverage for the underserved ",
+    link: "https://www.insurpass.com/",
+  },
+  
+];
