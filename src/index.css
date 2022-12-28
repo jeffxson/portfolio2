@@ -105,6 +105,11 @@ a:hover {
   display: flex;
   margin: 0px;
 }
+@media only screen and (max-width: 768px) {
+  .new-box {
+    display: grid;
+  }
+}
 hr {
   height: 19px;
   background: -webkit-gradient(
@@ -117,6 +122,9 @@ hr {
   );
 
   margin-left: 20px;
+}
+.boxer1 {
+  width: 350px;
 }
 .skill {
   margin-top: 20px;
