@@ -1,6 +1,40 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import logo from "./logo.jpeg";
+import logo from "./meme.jpg";
+import insur from "./insurepass.png";
+import game from "./game.png";
+import Rp from "./rp.PNG";
+import kwaba from "./kwaba.PNG";
+export const work = [
+  {
+    picture: insur,
+    discribtion:
+      "Insurpass is ushering in the future of insurance, creating amazing opportunities for insurers to access trusted digital distribution channels to provide coverage for the underserved ",
+    link: "https://www.insurpass.com/",
+    name: "Insurepass",
+  },
+  {
+    picture: game,
+    discribtion:
+      "Gamelyd is an online plartform that helps in organizing game tournaments in diffrent modes, Gamelyd simplifies and makes it easy for people in diffrent locations to meet and play tournaments together.",
+    link: "https://www.gamelyd.com/",
+    name: "Gamelyd",
+  },
+  {
+    picture: Rp,
+    discribtion:
+      "RP Shortlets is a subsidiary of Real Property Assets and Technologies Limited, a boutique real estate and facilities management company founded in 2012. With our unique contemporary style and passion for connecting people with property, we aspire to provide the ultimate real estate experience for today’s modern consumer.",
+    link: "https://www.rpshortlets.com/",
+    name: "Rpshortlets",
+  },
+  {
+    picture: kwaba,
+    discribtion:
+      "Track rent payments, send rent reminders and manage your properties easily, Use Kwaba to send and receive rent reminders, collect rent, verify tenants and automate your entire property management process.",
+    link: "https://www.kwaba.africa/",
+    name: "Kwaba",
+  },
+];
 
 const AboutScreen = () => {
   return (
@@ -92,6 +126,25 @@ const AboutScreen = () => {
             </div>
           </div>
         </div>
+        <ul class="cards">
+          {work.map((item) => (
+            <p>
+              <li>
+                <a href={item.link} class="card">
+                  <img src={item.picture} class="card__image" alt="" />
+                  <div class="card__overlay">
+                    <div class="card__header">
+                      <div class="card__header-text">
+                        <h3 class="card__title">{item.name}</h3>
+                      </div>
+                    </div>
+                    <p class="card__description">{item.discribtion}</p>
+                  </div>
+                </a>
+              </li>
+            </p>
+          ))}
+        </ul>
       </Container>
     </>
   );
