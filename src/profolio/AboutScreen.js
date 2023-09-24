@@ -5,7 +5,16 @@ import insur from "./insurepass.png";
 import game from "./game.png";
 import Rp from "./rp.PNG";
 import kwaba from "./kwaba.PNG";
+import industry from "./industry.png";
+import aico from "./aico.png";
 export const work = [
+  {
+    picture: aico,
+    discribtion:
+      "At AI&Co, we pride ourselves in our deep understanding of the law and experience in key industry sectors. The Firm is a full sector focused service law firm which provides its clients with world class legal services delivered with very high ethical standards. We have earned a reputation for delivering excellent services which can compete at international levels. We deliver solution driven services, and work in partnership with our clients to understand their needs and provide lasting solutions. Our vast knowledge in several sectors of law gives us an edge over our contemporaries. With five (5) of our partners being Senior Advocates of Nigeria, we have attained enviable professional heights in the legal profession. Our staff are well trained and work with the highest form of integrity and professionalism.",
+    link: "https://www.abdullahiibrahimco.org/",
+    name: "AI&Co",
+  },
   {
     picture: insur,
     discribtion:
@@ -33,6 +42,13 @@ export const work = [
       "Track rent payments, send rent reminders and manage your properties easily, Use Kwaba to send and receive rent reminders, collect rent, verify tenants and automate your entire property management process.",
     link: "https://www.kwaba.africa/",
     name: "Kwaba",
+  },
+  {
+    picture: industry,
+    discribtion:
+      "Industry Nite is Nigeria’s foremost talent community and platform for upcoming and established creatives looking to connect with other talents in the industry while creating an unforgettable experience for the public.",
+    link: "https://industrynite.xyz/",
+    name: "Industrynite",
   },
 ];
 
@@ -130,7 +146,12 @@ const AboutScreen = () => {
           {work.map((item) => (
             <p>
               <li>
-                <a href={item.link} class="card">
+                <a
+                  href={item.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  class="card"
+                >
                   <img src={item.picture} class="card__image" alt="" />
                   <div class="card__overlay">
                     <div class="card__header">
