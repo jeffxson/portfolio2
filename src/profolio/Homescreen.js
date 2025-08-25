@@ -7,8 +7,8 @@ const Homescreen = () => {
     <>
       <div className="her1">
         <Container>
-          <h1> Anyanwu Ugochukwu </h1>
-          <h2> Frontend Developer </h2>
+          <h1> Anyanwu Ugochukwu Jeffrey </h1>
+          <h2> Software Developer </h2>
           <div className=" py-3">
             <SocialIcon className="svg" url="https://twitter.com/" />
             <SocialIcon className="svg" url="https://facebook.com/" />

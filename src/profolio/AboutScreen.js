@@ -50,6 +50,22 @@ export const work = [
     link: "https://industrynite.xyz/",
     name: "Industrynite",
   },
+  {
+    picture:
+      "https://res.cloudinary.com/zizou/image/upload/v1756158522/Screenshot_2025-08-25_224652_lgx7hx.png",
+    discribtion:
+      "HomeInteriors is a luxurious stylish furniture company established in 2025. With distinctive modern designs and a commitment to enhancing living spaces, we aim to deliver the ultimate furniture experience for today’s discerning customers.",
+    link: "https://homeinteriorsng.com/",
+    name: "Home interiors",
+  },
+  {
+    picture:
+      "https://res.cloudinary.com/zizou/image/upload/v1756158687/Screenshot_2025-08-25_225108_neshon.png",
+    discribtion:
+      "At AutoBrand, we are dedicated to transforming the car buying experience by providing a seamless, reliable, and customer-focused platform. Whether you’re looking to buy, sell, or pre-order a vehicle, we offer a trusted marketplace with a diverse selection of high quality cars.",
+    link: "https://autobrandng.com/",
+    name: "AutoBrandNG",
+  },
 ];
 
 const AboutScreen = () => {

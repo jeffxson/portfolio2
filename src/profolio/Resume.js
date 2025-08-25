@@ -106,18 +106,72 @@ const Resume = () => {
                 <li> Updated endpoints.</li>
                 <li>Testing and updating of features.</li>
               </ul>
-              <h6> TechnoTrendnNG - full time june, 2022 – Present.</h6>
+              <h6> TechnoTrendnNG/Maasai - full time june, 2022 – Present.</h6>
               <ul>
                 <li>
-                  Collaborated with web designers, backend developers to design,
-                  and build test improve web product
+                  Collaborated closely with web designers and backend developers
+                  to design, test, and improve web applications.
                 </li>
-                <li> Updated endpoints.</li>
-                <li>Project Management</li>
-                <li>Testing and updating of features.</li>
                 <li>
-                  Redesigned the company's pages and built responsive client
-                  side application.
+                  Redesigned company pages and built responsive, user-friendly
+                  client-side applications to enhance user experience.
+                </li>
+                <li>
+                  Maintained and updated API endpoints, ensuring seamless
+                  communication between frontend and backend services.
+                </li>
+                <li>
+                  Participated in project management activities including
+                  planning, task tracking, and stakeholder communication.
+                </li>
+                <li>
+                  Conducted feature testing and performed regular updates to
+                  improve performance and fix bugs.
+                </li>
+                <li>
+                  Worked with NIN (National Identity Number) and NIBSS (Nigeria
+                  Inter-Bank Settlement System) to develop a centralized
+                  identity verification service, contributing to both frontend
+                  and backend development.
+                </li>
+              </ul>
+              <h6> Maasai - full time Nov, 2024 – feb 2025.</h6>
+              <ul>
+                <li>
+                  Worked as a Front‑End Developer on{" "}
+                  <a href="https://app.maasai.tech/" target="_blank">
+                    Maasai
+                  </a>
+                  , an all‑in‑one M&A platform enabling African startups to buy,
+                  sell, and manage acquisitions with robust financial tools,
+                  CRM, and due diligence support.
+                </li>
+                <li>
+                  Collaborated with UX/UI designers and backend engineers to
+                  craft and refine responsive, sales-focused interfaces that
+                  simplify the user journey across startup listings and
+                  acquisition workflows.
+                </li>
+                <li>
+                  Redesigned and optimized key user-facing dashboards to enhance
+                  clarity and usability of complex features like valuation
+                  tools, due diligence workflows, and transaction listings.
+                </li>
+                <li>
+                  Developed and maintained modular, scalable frontend components
+                  (e.g., listings, forms, modals) that integrated seamlessly
+                  with backend APIs to deliver smooth, dynamic user experiences.
+                </li>
+                <li>
+                  Played an active role in Agile project
+                  management—participating in sprint planning, managing tasks in
+                  Jira/Confluence, and facilitating cross-team communication to
+                  meet product milestones.
+                </li>
+                <li>
+                  Conducted rigorous feature testing, UI/UX validation, and
+                  performance optimizations to ensure the platform remained
+                  responsive, efficient, and accessible on various devices.
                 </li>
               </ul>
               <h4>Professional Education</h4>
