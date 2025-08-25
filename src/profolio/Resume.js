@@ -106,7 +106,7 @@ const Resume = () => {
                 <li> Updated endpoints.</li>
                 <li>Testing and updating of features.</li>
               </ul>
-              <h6> TechnoTrendnNG/Maasai - full time june, 2022 – Present.</h6>
+              <h6> TechnoTrendnNG - full time june, 2022 – Present.</h6>
               <ul>
                 <li>
                   Collaborated closely with web designers and backend developers
@@ -138,13 +138,10 @@ const Resume = () => {
               <h6> Maasai - full time Nov, 2024 – feb 2025.</h6>
               <ul>
                 <li>
-                  Worked as a Front‑End Developer on{" "}
-                  <a href="https://app.maasai.tech/" target="_blank">
-                    Maasai
-                  </a>
-                  , an all‑in‑one M&A platform enabling African startups to buy,
-                  sell, and manage acquisitions with robust financial tools,
-                  CRM, and due diligence support.
+                  Worked as a Front‑End Developer on Maasai , an all‑in‑one M&A
+                  platform enabling African startups to buy, sell, and manage
+                  acquisitions with robust financial tools, CRM, and due
+                  diligence support.
                 </li>
                 <li>
                   Collaborated with UX/UI designers and backend engineers to
