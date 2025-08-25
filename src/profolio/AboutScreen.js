@@ -66,6 +66,14 @@ export const work = [
     link: "https://autobrandng.com/",
     name: "AutoBrandNG",
   },
+  {
+    picture:
+      "https://res.cloudinary.com/zizou/image/upload/v1756159580/Screenshot_2025-08-25_230606_ydr4kv.png",
+    discribtion:
+      "Sell your startup, search and buy from verified listings, and manage your M&A portfolio using our financial tools, CRM and due diligence support.",
+    link: "https://app.maasai.tech/",
+    name: "Maasai",
+  },
 ];
 
 const AboutScreen = () => {
